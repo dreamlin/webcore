@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rewrites>
+	<rewrite regexs="/index.html" turnUrl="/Index.action" />
+	<rewrite regexs="/ModelPage([0-9]+)_([0-9A-Za-z]+).html" turnUrl="/ModelPage.action?ProductId=$1&amp;ImageId=$2" />
+</rewrites>
